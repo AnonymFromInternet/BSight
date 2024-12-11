@@ -2,15 +2,15 @@
 
 ## Install
 
-`go get github.com/AnonymFromInternet/BSight/sortedList`
+`go get github.com/AnonymFromInternet/BSight`
 
 ## Example
 
 ```go
 import (
-    "github.com/AnonymFromInternet/BSight/sortedList"
     "fmt"
-    )
+    sortedList "github.com/AnonymFromInternet/BSight"
+)
 
 func main() {
     sl := sortedList.New()
